@@ -1,0 +1,26 @@
+{
+  "name": "heychat",
+  "version": "1.0.0",
+  "description": "A real-time chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "chat",
+    "chat-app",
+    "chat-room"
+  ],
+  "author": "Sayori Bhadra",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
